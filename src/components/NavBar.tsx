@@ -1,6 +1,6 @@
-import myImg from '@/components/assets/images/toan.jpg'
+import myImg from './assets/images/toan.jpg'
 import { Link } from 'react-router-dom'
-import AboutPage from './AboutPage'
+import AboutPage from '../app/about/About'
 import Footer from './Footer'
 type Props = {
     isActive: string

@@ -5,10 +5,13 @@ import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import { Routes, Route } from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom'
-import AboutPage from '@/components/AboutPage'
+import AboutPage from '@/app/about/About'
 import HomePage from '@/components/HomePage'
 import Card3D from '@/components/Card3D'
 import NotFound from '@/components/Notfound'
+import Uses from '@/components/Uses'
+import Articles from '@/components/Articles'
+import Projects from '@/components/Projects'
 export default function Home() {
   return (
     <BrowserRouter>
@@ -38,6 +41,27 @@ export default function Home() {
                 <>
                   <NavBar isActive='about' />
                   <AboutPage />
+                  <Footer />
+                </>
+              } />
+               <Route path='/articles' element={
+                <>
+                  <NavBar isActive='articles' />
+                  <Articles />
+                  <Footer />
+                </>
+              } />
+                 <Route path='/projects' element={
+                <>
+                  <NavBar isActive='projects' />
+                  <Projects />
+                  <Footer />
+                </>
+              } />
+               <Route path='/uses' element={
+                <>
+                  <NavBar isActive='uses' />
+                  <Uses />
                   <Footer />
                 </>
               } />

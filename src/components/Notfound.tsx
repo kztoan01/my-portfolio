@@ -42,7 +42,7 @@ const ExampleContent = () => {
         Ops! Not Found
       </p>
       <p className="text-center text-neutral-400">
-      Toan is still building this page. Hopefully he will be competent enough for you to see this page 📺
+      Toan is still building this page. Come back later 📺
       </p>
       <div className="flex items-center justify-center gap-3">
         <a href="https://www.facebook.com/toan.tranbao.22082003/" target="_blank"><button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800">
