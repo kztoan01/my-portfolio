@@ -85,25 +85,24 @@ export default function HomePage() {
             end: 'Present'
         },
         {
-            img: 'https://play-lh.googleusercontent.com/1zfN_BL13q20v0wvBzMWiZ_sL_t4KcCJBeAMRpOZeT3p34quM-4-pO-VcLj8PJNXPA0=w240-h480-rw',
-            company: 'Airbnb',
-            role: 'Product Designer',
-            start: '2014',
-            end: '2019'
-        },
-        {
             img: 'https://news.khangz.com/wp-content/uploads/2023/05/DOI-TEN-FACEBOOK-1.jpg',
             company: 'Facebook',
             role: 'iOS Software Engineer',
-            start: '2011',
-            end: '2014'
+            start: '2020',
+            end: '2022'
         },
         {
-            img: 'https://upload.wikimedia.org/wikipedia/vi/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/800px-Starbucks_Corporation_Logo_2011.svg.png',
-            company: 'Starbucks',
-            role: 'Shift Supervisor',
-            start: '2008',
-            end: '2011'
+            img: 'https://pbs.twimg.com/profile_images/1664295684940484608/WtSiqLK6_400x400.jpg',
+            company: 'Microsoft',
+            role: 'Software Engineer',
+            start: '2018',
+            end: '2020'
+        },  {
+            img: 'https://play-lh.googleusercontent.com/1zfN_BL13q20v0wvBzMWiZ_sL_t4KcCJBeAMRpOZeT3p34quM-4-pO-VcLj8PJNXPA0=w240-h480-rw',
+            company: 'Airbnb',
+            role: 'Product Designer',
+            start: '2016',
+            end: '2018'
         },
 
     ]
@@ -212,59 +211,6 @@ export default function HomePage() {
                                             </div>
                                         </article>
                                     ))}
-
-                                    {/* <article className="group relative flex flex-col items-start">
-                                        <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                                            <div
-                                                className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl">
-                                            </div><a href="/articles/introducing-animaginary"><span
-                                                className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span
-                                                    className="relative z-10">Introducing Animaginary: High performance web
-                                                    animations</span></a>
-                                        </h2><time
-                                            className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                                        ><span className="absolute inset-y-0 left-0 flex items-center"
-                                            aria-hidden="true"><span
-                                                className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span></span>September
-                                            2, 2022</time>
-                                        <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">When you’re
-                                            building a website for a company as ambitious as Planetaria, you need to make an
-                                            impression. I wanted people to visit our website and see animations that looked
-                                            more realistic than reality itself.</p>
-                                        <div aria-hidden="true"
-                                            className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500">
-                                            Read article<svg viewBox="0 0 16 16" fill="none" aria-hidden="true"
-                                                className="ml-1 h-4 w-4 stroke-current">
-                                                <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                            </svg></div>
-                                    </article>
-                                    <article className="group relative flex flex-col items-start">
-                                        <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                                            <div
-                                                className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl">
-                                            </div><a href="/articles/rewriting-the-cosmos-kernel-in-rust"><span
-                                                className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span
-                                                    className="relative z-10">Rewriting the cosmOS kernel in Rust</span></a>
-                                        </h2><time
-                                            className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                                        ><span className="absolute inset-y-0 left-0 flex items-center"
-                                            aria-hidden="true"><span
-                                                className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span></span>July
-                                            14, 2022</time>
-                                        <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">When we
-                                            released the first version of cosmOS last year, it was written in Go. Go is a
-                                            wonderful programming language, but it’s been a while since I’ve seen an article
-                                            on the front page of Hacker News about rewriting some important tool in Go and I
-                                            see articles on there about rewriting things in Rust every single week.</p>
-                                        <div aria-hidden="true"
-                                            className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500">
-                                            Read article<svg viewBox="0 0 16 16" fill="none" aria-hidden="true"
-                                                className="ml-1 h-4 w-4 stroke-current">
-                                                <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                            </svg></div>
-                                    </article> */}
                                 </div>
                                 <div className="space-y-10 lg:pl-16 xl:pl-24">
                                     <form action="/thank-you"
@@ -299,7 +245,7 @@ export default function HomePage() {
                                             <path
                                                 d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5"
                                                 className="stroke-zinc-400 dark:stroke-zinc-500"></path>
-                                        </svg><span className="ml-3">Work</span></h2>
+                                        </svg><span className="ml-3">Work / Education</span></h2>
                                         <ol className="mt-6 space-y-4">
                                             {works.map((work) => (
                                                 <li key={work.company} className="flex gap-4">

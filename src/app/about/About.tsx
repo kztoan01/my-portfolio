@@ -1,8 +1,10 @@
 import Card3D from '@/components/Card3D'
+import toan from  '../../../public/assets/images/profile-pic.jpg'
+import Image from 'next/image'
 export default function About() {
     const contact = [
         {
-            link:'https://twitter.com/yothatstoan',
+            link: 'https://twitter.com/yothatstoan',
             name: 'flex',
             platform: 'Follow on Twitter',
             icon: <svg viewBox="0 0 24 24" aria-hidden="true"
@@ -13,7 +15,7 @@ export default function About() {
             </svg>
         },
         {
-            link:'https://www.instagram.com/yothats.toan/?hl=en',
+            link: 'https://www.instagram.com/yothats.toan/?hl=en',
             name: 'mt-4 flex2',
             platform: 'Follow on Instagram',
             icon: <svg viewBox="0 0 24 24" aria-hidden="true"
@@ -27,7 +29,7 @@ export default function About() {
             </svg>
         },
         {
-            link:'https://github.com/kztoan01',
+            link: 'https://github.com/kztoan01',
             name: 'mt-4 flex',
             platform: 'Follow on GitHub',
             icon: <svg viewBox="0 0 24 24" aria-hidden="true"
@@ -38,13 +40,13 @@ export default function About() {
             </svg>
         },
         {
-            link:'https://www.facebook.com/toan.tranbao.22082003/',
+            link: 'https://www.facebook.com/toan.tranbao.22082003/',
             name: 'mt-4 flex',
             platform: 'Follow on Facebook',
             icon: <svg aria-hidden="true"
-            className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
-            <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-        </svg>
+                className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+                <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+            </svg>
         },
     ]
     return (
@@ -57,8 +59,13 @@ export default function About() {
                                 <div className="lg:pl-20">
                                     <div className="max-w-xs px-2.5 lg:max-w-none"><img alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
-                                        className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                                        className="relative aspect-square rotate-6 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                                         src="https://storage.cloud.google.com/arthub-bucket/toan.jpg"
+                                    /></div>
+                                    <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
+                                        height="800" decoding="async" data-nimg="1"
+                                        className="aspect-square -rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                                        src={toan}
                                     /></div>
                                 </div>
                                 <div className="lg:order-first lg:row-span-2">
@@ -66,23 +73,27 @@ export default function About() {
                                         className="font-sans text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                                         I’m Tran Bao Toan. I live in Ho Chi Minh City, where I design the future.</h1>
                                     <div className="leading-7 font-sans mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                                        <p>I’ve loved making things for as long as I can remember, and wrote my first
-                                            program when I was 6 years old, just two weeks after my mom brought home the
-                                            brand new Macintosh LC 550 that I taught myself to type on.</p>
-                                        <p>The only thing I loved more than computers as a kid was space. When I was 8, I
-                                            climbed the 40-foot oak tree at the back of our yard while wearing my older
-                                            sister’s motorcycle helmet, counted down from three, and jumped — hoping the
-                                            tree was tall enough that with just a bit of momentum I’d be able to get to
-                                            orbit.</p>
-                                        <p>I spent the next few summers indoors working on a rocket design, while I
-                                            recovered from the multiple surgeries it took to fix my badly broken legs. It
-                                            took nine iterations, but when I was 15 I sent my dad’s Blackberry into orbit
-                                            and was able to transmit a photo back down to our family computer from space.
+                                        <p>I've loved technology for as long as i can remember, and started studying software when I was only 8 years old,
+                                            right after my mom bought me a brand new PC set powered by the Windows XP operating system.
+                                            I learned how software like Windows Media Player works because I love music.</p>
+                                        <p>The only thing I loved more than computers as a kid was music.
+                                            My mom — a middle school music teacher, is the person who inspired me to love and pursue this subject.
+                                            When I was 12 years old, I became proficient in music editing software (cut, merge, increase, decrease sound or
+                                            more complicated things like adjusting tone for beats) so that
+                                            I could help my mother with her music projects and teaching.</p>
+                                        <p>
+                                            I spent the next few summers learning more about various types of software, hardware,
+                                            browsers and everything relating to computers as if I was born to master them and that is my passion.
+                                            After destroying my old PC by illegally installing the latest Windows,
+                                            my dad upgraded me to a new PC when I was 15 years old. This is a new chapter for my process of conquering software.
+                                            It has helped me a lot in research and programming. It's fast, powerful, and has much better storage.
                                         </p>
-                                        <p>Today, I’m the founder of Planetaria, where we’re working on civilian space suits
-                                            and manned shuttle kits you can assemble at home so that the next generation of
-                                            kids really <em>can</em> make it to orbit — from the comfort of their own
-                                            backyards.</p>
+                                        <p>Because I'm a boy, besides that, I'm also lucky to have my parents buy me genuine gaming devices like PS4, controller,... and most especially,
+                                            Razer gaming speakers. I really liked it especially since I'm a music lover</p>
+                                        <p>Today, I’m the founder of ArtHub and Melo, where we provide a platform for music and
+                                            digital art with people who have the same passion so that the next generation of young people can
+                                            continue the creativity and entertainment
+                                            of the past and bring a new colorful world.</p>
                                     </div>
                                 </div>
                                 <div className="lg:pl-20">
