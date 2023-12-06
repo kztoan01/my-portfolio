@@ -135,7 +135,7 @@ export default function Home() {
       date: 'August 22, 2023',
       title: 'Embedded system monitors temperature using Blynk',
       link: '/articles/embedded-system-monitors-temperature-using-blynk',
-      description: 'ESP8266 LoRa Gateway for Arduino and LM35 Temperature Sensor. We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
+      description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
     },
     // {
     //   date: 'September 2, 2022',

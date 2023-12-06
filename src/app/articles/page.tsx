@@ -8,7 +8,7 @@ function Articles() {
         {
           date: 'August 22, 2023',
           title: 'Embedded system monitors temperature using Blynk',
-          description: 'ESP8266 LoRa Gateway for Arduino and LM35 Temperature Sensor. We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
+          description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
         },
         // {
         //   date: 'September 2, 2022',
@@ -24,9 +24,9 @@ function Articles() {
                         <div className="mx-auto max-w-2xl lg:max-w-5xl">
                             <header className="max-w-2xl">
                                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                                    Writing on software design, company building, and the aerospace industry.</h1>
-                                <p className="leading-7 mt-6 text-base text-zinc-600 dark:text-zinc-400">All of my long-form thoughts on
-                                    programming, leadership, product design, and more, collected in chronological order.</p>
+                                Writing on software projects, interesting technology, and music.</h1>
+                                <p className="leading-7 mt-6 text-base text-zinc-600 dark:text-zinc-400">All of my thoughts on
+                                    programming, leadership, product design, and more.</p>
                             </header>
                             <div className="mt-16 sm:mt-20">
                                 <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">

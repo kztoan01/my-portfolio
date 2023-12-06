@@ -16,19 +16,20 @@ function Projects() {
             prop: 'academy.arthub.com',
         },
         {
+            img: iot,
+            name: 'TempSpace',
+            description: 'An IoT based project for monitor temperature anywhere if the internet connection is available.',
+            link: 'https://github.com/kztoan01/temp-space.git',
+            prop: 'github.com',
+        },
+        {
             img: melo,
             name: 'Melo',
             description: 'Melo is a digital music service that gives you access to millions of songs.',
             link: '#',
             prop: 'music.melo.com',
         },
-        {
-            img: iot,
-            name: 'TempSpace',
-            description: 'An IoT based project for monitor temperature anywhere if the internet connection is available.',
-            link: '#',
-            prop: 'github.com',
-        },
+
         {
             img: devnote,
             name: 'DevNote',
@@ -47,10 +48,7 @@ function Projects() {
                             <header className="max-w-2xl">
                                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                                     Things I’ve made trying to conquer the multiverse.</h1>
-                                <p className="leading-7 mt-6 text-base text-zinc-600 dark:text-zinc-400">I’ve worked on tons of
-                                    projects from big to small over the years but these are the ones that I’m most proud of. Many of them are
-                                    open-source, so if you see something that piques your interest, check out the code and
-                                    contribute if you have ideas for how it can be improved.</p>
+                                <p className="leading-7 mt-6 text-base text-zinc-600 dark:text-zinc-400">Over the years, I've worked on many different types of projects, but these are the ones I'm most proud of. Since many of them are open-source, you may check out the code and contribute any suggestions you may have for improving them if you find something that interests you.</p>
                             </header>
                             <div className="mt-16 sm:mt-20">
                                 <ul role="list" className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
