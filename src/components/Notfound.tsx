@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 const NotFound = () => {
   return (
     <div className="relative overflow-hidden">
@@ -48,7 +48,7 @@ const ExampleContent = () => {
         <a href="https://www.facebook.com/toan.tranbao.22082003/" target="_blank"><button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800">
           Contact Toan
         </button></a>
-        <Link to={"/"}><button className="w-fit bg-neutral-200 px-4 py-2 font-semibold text-neutral-700 transition-colors hover:bg-neutral-50">
+        <Link href={"/"}><button className="w-fit bg-neutral-200 px-4 py-2 font-semibold text-neutral-700 transition-colors hover:bg-neutral-50">
           Back To Home
         </button></Link>
       </div>

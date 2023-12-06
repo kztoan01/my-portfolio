@@ -1,5 +1,6 @@
 import Card3D from '@/components/Card3D'
-import toan from  '../../../public/assets/images/profile-pic.jpg'
+import toan1 from  '../../../public/assets/images/toan.jpg'
+import toan2 from  '../../../public/assets/images/profile-pic.jpg'
 import Image from 'next/image'
 export default function About() {
     const contact = [
@@ -57,15 +58,15 @@ export default function About() {
                         <div className="mx-auto max-w-2xl lg:max-w-5xl">
                             <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                                 <div className="lg:pl-20">
-                                    <div className="max-w-xs px-2.5 lg:max-w-none"><img alt="" loading="lazy" width="800"
+                                    <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
                                         className="relative aspect-square rotate-6 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-                                        src="https://storage.cloud.google.com/arthub-bucket/toan.jpg"
+                                        src={toan1}
                                     /></div>
                                     <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
                                         className="aspect-square -rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-                                        src={toan}
+                                        src={toan2}
                                     /></div>
                                 </div>
                                 <div className="lg:order-first lg:row-span-2">
@@ -73,7 +74,7 @@ export default function About() {
                                         className="font-sans text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                                         I’m Tran Bao Toan. I live in Ho Chi Minh City, where I design the future.</h1>
                                     <div className="leading-7 font-sans mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                                        <p>I've loved technology for as long as i can remember, and started studying software when I was only 8 years old,
+                                        <p>I've loved technology for as long as I can remember, and started studying software when I was only 8 years old,
                                             right after my mom bought me a brand new PC set powered by the Windows XP operating system.
                                             I learned how software like Windows Media Player works because I love music.</p>
                                         <p>The only thing I loved more than computers as a kid was music.

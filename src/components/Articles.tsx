@@ -63,8 +63,6 @@ function Articles() {
                                             >{article.date}</time>
                                         </article>
                                         ))}
-                                        
-
                                     </div>
                                 </div>
                             </div>
