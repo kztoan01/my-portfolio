@@ -61,12 +61,12 @@ export default function About() {
                                     <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
                                         className="relative aspect-square rotate-6 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-                                        src={toan1}
+                                        src={toan2}
                                     /></div>
                                     <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
                                         className="aspect-square -rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-                                        src={toan2}
+                                        src={toan1}
                                     /></div>
                                 </div>
                                 <div className="lg:order-first lg:row-span-2">

@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ArrowSmDownIcon } from '@heroicons/react/solid';
 import Image from "next/image";
-import toan from  '../../public/assets/images/toan.jpg'
+import toan from  '../../public/assets/images/profile-pic.jpg'
 const Card3D = () => {
   return (
     <div className=" px-4 py-12 text-slate-900">

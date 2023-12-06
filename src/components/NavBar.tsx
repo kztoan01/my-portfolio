@@ -3,7 +3,7 @@ import myImg from './assets/images/toan.jpg'
 import Link from 'next/link'
 import Footer from './Footer'
 import Image from 'next/image'
-import toan from '../../public/assets/images/toan.jpg'
+import toan from '../../public/assets/images/profile-pic.jpg'
 import { usePathname } from 'next/navigation'
 
 export default function NavBar() {
