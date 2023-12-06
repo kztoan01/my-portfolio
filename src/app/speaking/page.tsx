@@ -70,7 +70,7 @@ export default function Speaking() {
                                                 <div className="md:col-span-3">
                                                     <div className="space-y-16">
                                                         {speaking.posts.map((post) => (
-                                                            <article className="group relative flex flex-col items-start">
+                                                            <article key={post.title} className="group relative flex flex-col items-start">
                                                                 <h3
                                                                     className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
                                                                     <div

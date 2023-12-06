@@ -93,7 +93,7 @@ function Uses() {
                                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                                 Welcome to a curated list of the tech I use.</h1>
                                 <p className="leading-7 mt-6 text-base text-zinc-600 dark:text-zinc-400">As an developer, 
-                                I've been spending hours and hours at my desk every day. So, I've been continuously improving my workspace in order to boost my productivity.</p>
+                                I have been spending hours and hours at my desk every day. So, I have been continuously improving my workspace in order to boost my productivity.</p>
                             </header>
                             <div className="mt-16 sm:mt-20">
                                 <div className="space-y-20">
