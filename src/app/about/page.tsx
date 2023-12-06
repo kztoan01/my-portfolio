@@ -74,7 +74,7 @@ export default function About() {
                                         className="font-sans text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                                         I’m Tran Bao Toan. I live in Ho Chi Minh City, where I design the future.</h1>
                                     <div className="leading-7 font-sans mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                                        <p>I've loved technology for as long as I can remember, and started studying software when I was only 8 years old,
+                                        <p>I’ve loved technology for as long as I can remember, and started studying software when I was only 8 years old,
                                             right after my mom bought me a brand new PC set powered by the Windows XP operating system.
                                             I learned how software like Windows Media Player works because I love music.</p>
                                         <p>The only thing I loved more than computers as a kid was music.
@@ -87,10 +87,10 @@ export default function About() {
                                             browsers and everything relating to computers as if I was born to master them and that is my passion.
                                             After destroying my old PC by illegally installing the latest Windows,
                                             my dad upgraded me to a new PC when I was 15 years old. This is a new chapter for my process of conquering software.
-                                            It has helped me a lot in research and programming. It's fast, powerful, and has much better storage.
+                                            It has helped me a lot in research and programming. It’s fast, powerful, and has much better storage.
                                         </p>
-                                        <p>Because I'm a boy, besides that, I'm also lucky to have my parents buy me genuine gaming devices like PS4, controller,... and most especially,
-                                            Razer gaming speakers. I really liked it especially since I'm a music lover</p>
+                                        <p>Because I’m a boy, besides that, I’m also lucky to have my parents buy me genuine gaming devices like PS4, controller,... and most especially,
+                                            Razer gaming speakers. I really liked it especially since I’m a music lover</p>
                                         <p>Today, I’m the founder of ArtHub and Melo, where we provide a platform for music and
                                             digital art with people who have the same passion so that the next generation of young people can
                                             continue the creativity and entertainment
