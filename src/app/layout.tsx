@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='overflow-x-hidden font-sans flex h-full bg-yellow-200 dark:bg-black'>
+        <div className='overflow-x-hidden font-sans flex h-full bg-gray-300 dark:bg-black'>
           <div className='flex w-full'>
             <div className="fixed inset-0 flex justify-center sm:px-8">
               <div className="flex w-full max-w-7xl lg:px-8">

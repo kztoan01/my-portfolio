@@ -1,13 +1,17 @@
+import Link from "next/link"
 function Articles() {
+
     const articles = [
         {
           date: 'December 1, 2023',
           title: 'Academy platform provides online drawing courses',
+          link: '/articles/academy-platform-provides-online-drawing-courses',
           description: 'ArtHub courses are video-based experiences that give students the chance to learn actionable skills. Whether you have experience teaching, or it’s your first time, we’ll help you package your knowledge into an online course that improves student lives.'
         },
         {
           date: 'August 22, 2023',
           title: 'Embedded system monitors temperature using Blynk',
+          link: '/articles/embedded-system-monitors-temperature-using-blynk',
           description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
         },
         // {
@@ -38,10 +42,9 @@ function Articles() {
                                                         className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
                                                         <div
                                                             className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl">
-                                                        </div><a
-                                                            href="/articles/crafting-a-design-system-for-a-multiplanetary-future"><span
+                                                        </div><Link href={article.link}><span
                                                                 className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span
-                                                                    className="relative z-10">{article.title}</span></a>
+                                                                    className="relative z-10">{article.title}</span></Link>
                                                     </h2><time
                                                         className="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
                                                     ><span
