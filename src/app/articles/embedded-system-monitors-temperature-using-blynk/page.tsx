@@ -219,7 +219,7 @@ String incoming = "";`;
                                                     </SyntaxHighlighter>
                                                 </div>
                                             </div>
-                                            <p>The personal wifi's id and password are needed for the ESP8266 to connect to Blynk</p>
+                                            <p>The personal wifi’s id and password are needed for the ESP8266 to connect to Blynk</p>
                                             <h2 className="font-sans text-lg font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">Demonstrating Results</h2>
                                                         <p>After completing the configuration setup and connecting to Blynk, we can monitor the temperature that the LM35 measures in degrees Celsius and degrees Fahrenheit through 2 gauges as shown.</p>
                                                         <div className="max-w-xs px-2.5 lg:max-w-none">

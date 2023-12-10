@@ -27,7 +27,7 @@ export default function ArtHub() {
                                         <div className="mt-8 leading-7 font-sans space-y-7 text-base text-zinc-600 dark:text-zinc-400" data-mdx-content="true">
                                             <p>Learning how to draw in Vietnam is increasingly popular, especially in big cities such as Ho Chi Minh City, Da Nang, and Hanoi. 
                                                 Parents want to have quality drawing courses to help their children improve their thinking and create a love for painting. 
-                                                According to a survey, on average each Vietnamese family spends more than 40% of their income to invest in learning and developing children's skills.
+                                                According to a survey, on average each Vietnamese family spends more than 40% of their income to invest in learning and developing children’s skills.
                                                 However, learning to draw at centres causes many time constraints for parents when many parents are very busy because of their work. 
                                                 So, parents find an online drawing course to help their children learn to draw proactively in time and space but many online drawing courses in Vietnam are sketchy in terms of teaching quality and learning pathway. </p>
                                             <p>Many parents always want an online drawing course platform that not only has quality drawing courses but also has a clear learning path. Such a platform will help saving time for parents and increasing access to art for their children. 
