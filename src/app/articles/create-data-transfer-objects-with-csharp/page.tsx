@@ -125,10 +125,10 @@ export default function IoT() {
                                                             className="ml-3">December 12, 2023</span></time>
                                         </header>
                                         <div className="mt-8 leading-7 font-sans space-y-7 text-base text-zinc-600 dark:text-zinc-400" data-mdx-content="true">
-                                            <p>Currently, the client may access the database entities using our web API. Data that corresponds to your database tables directly is sent to the client. But that's not necessarily a smart move. There are moments when you wish to send a customer data in a different format. As an illustration, you may wish to: </p>
+                                            <p>Currently, the client may access the database entities using our web API. Data that corresponds to your database tables directly is sent to the client. But that’s not necessarily a smart move. There are moments when you wish to send a customer data in a different format. As an illustration, you may wish to: </p>
                                             <ol>
                                                 <li>● Take out any recurring references (prior part).</li>
-                                                <li>● Keep some properties hidden from clients that aren't supposed to see them.</li>
+                                                <li>● Keep some properties hidden from clients that aren’t supposed to see them.</li>
                                                 <li>● Leave out some characteristics to minimize the size of the payload.</li>
                                                 <li>● Object graphs with nested objects should be flattened to improve client convenience.</li>
                                                 <li>● Steer clear of "over-posting" weaknesses. (For more on over-posting, see Model Validation.)</li>
@@ -137,7 +137,7 @@ export default function IoT() {
 
                                             <p>You can define a data transfer object (DTO) to do this.
                                                 DTO is an object that specifies how data will be delivered over a network.
-                                                Let's see how that works with the Pokemon entity. In the Models folder, add two DTO classes:</p>
+                                                Let’s see how that works with the Pokemon entity. In the Models folder, add two DTO classes:</p>
                                             <div className="max-w-xs px-2.5 lg:max-w-none">
 
                                                 <div className="max-w-2xl min-w-[25rem] bg-[#3a404d] rounded-md overflow-hidden">
@@ -258,11 +258,10 @@ export default function IoT() {
                                                     </SyntaxHighlighter>
                                                 </div>
                                             </div>
-                                            <p>In this tutorial, we're converting to DTOs manually in code. We can use support libraries like <Link className="underline" href={'https://automapper.org/'} target="_blank">AutoMapper</Link> to automatically handle the conversion</p>
-                                            <p>This article is researched and based on instructions on Microsoft's documentation page.</p>
+                                            <p>In this tutorial, we’re converting to DTOs manually in code. We can use support libraries like <Link className="underline" href={'https://automapper.org/'} target="_blank">AutoMapper</Link> to automatically handle the conversion</p>
+                                            <p>This article is researched and based on instructions on Microsoft’s documentation page.</p>
                                         </div>
                                     </article>
-
                                     <form
                                         className="mt-20 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
                                         <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
