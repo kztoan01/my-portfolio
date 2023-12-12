@@ -131,7 +131,7 @@ export default function IoT() {
                                                 <li>● Keep some properties hidden from clients that aren’t supposed to see them.</li>
                                                 <li>● Leave out some characteristics to minimize the size of the payload.</li>
                                                 <li>● Object graphs with nested objects should be flattened to improve client convenience.</li>
-                                                <li>● Steer clear of "over-posting" weaknesses. (For more on over-posting, see Model Validation.)</li>
+                                                <li>● Steer clear of over-posting weaknesses. (For more on over-posting, see Model Validation.)</li>
                                                 <li>● Your database layer and service layer should be separated.</li>
                                             </ol>
 
