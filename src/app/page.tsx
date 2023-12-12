@@ -127,22 +127,23 @@ export default function Home() {
 
   const articles = [
     {
+      date: 'December 12, 2023',
+      title: 'Create Data Transfer Objects (DTOs) with C#',
+      link: '/articles/create-data-transfer-objects-with-csharp',
+      description: 'A DTO (Data Transfer Object) is an object that defines how data will be sent between applications. It’s used only to send and receive data and does not contain in itself any business logic. The use of DTOs is very common in web development with ASP.NET Core as they provide solutions for many needs.'
+  }, 
+    {
+      date: 'December 8, 2023',
+      title: 'Embedded system monitors temperature using Blynk',
+      link: '/articles/embedded-system-monitors-temperature-using-blynk',
+      description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
+  },
+  {
       date: 'December 1, 2023',
       title: 'Academy platform provides online drawing courses',
       link: '/articles/academy-platform-provides-online-drawing-courses',
       description: 'ArtHub courses are video-based experiences that give students the chance to learn actionable skills. Whether you have experience teaching, or it’s your first time, we’ll help you package your knowledge into an online course that improves student lives.'
-    },
-    {
-      date: 'August 22, 2023',
-      title: 'Embedded system monitors temperature using Blynk',
-      link: '/articles/embedded-system-monitors-temperature-using-blynk',
-      description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
-    },
-    // {
-    //   date: 'September 2, 2022',
-    //   title: 'Rewriting the cosmOS kernel in Rust',
-    //   description: 'When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.'
-    // }
+  },
   ]
   return (
     <main className="font-sans flex-auto mt-16">

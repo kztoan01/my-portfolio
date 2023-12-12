@@ -3,23 +3,26 @@ function Articles() {
 
     const articles = [
         {
-          date: 'December 1, 2023',
-          title: 'Academy platform provides online drawing courses',
-          link: '/articles/academy-platform-provides-online-drawing-courses',
-          description: 'ArtHub courses are video-based experiences that give students the chance to learn actionable skills. Whether you have experience teaching, or it’s your first time, we’ll help you package your knowledge into an online course that improves student lives.'
+            date: 'December 12, 2023',
+            title: 'Create Data Transfer Objects (DTOs) with C#',
+            link: '/articles/create-data-transfer-objects-with-csharp',
+            description: 'A DTO (Data Transfer Object) is an object that defines how data will be sent between applications. It’s used only to send and receive data and does not contain in itself any business logic. The use of DTOs is very common in web development with ASP.NET Core as they provide solutions for many needs.'
+        }, 
+          {
+            date: 'December 8, 2023',
+            title: 'Embedded system monitors temperature using Blynk',
+            link: '/articles/embedded-system-monitors-temperature-using-blynk',
+            description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
         },
         {
-          date: 'August 22, 2023',
-          title: 'Embedded system monitors temperature using Blynk',
-          link: '/articles/embedded-system-monitors-temperature-using-blynk',
-          description: 'We will see how to make ESP8266 LoRa Gateway for Arduino and LM35 temperature sensor. The temperature can be monitored from any part of the world with Blynk if the internet connection is available.'
+            date: 'December 1, 2023',
+            title: 'Academy platform provides online drawing courses',
+            link: '/articles/academy-platform-provides-online-drawing-courses',
+            description: 'ArtHub courses are video-based experiences that give students the chance to learn actionable skills. Whether you have experience teaching, or it’s your first time, we’ll help you package your knowledge into an online course that improves student lives.'
         },
-        // {
-        //   date: 'September 2, 2022',
-        //   title: 'Rewriting the cosmOS kernel in Rust',
-        //   description: 'When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.'
-        // }
-      ]
+     
+
+    ]
     return (
         <main className="flex-auto">
             <div className="sm:px-8 mt-16 sm:mt-32">
@@ -28,7 +31,7 @@ function Articles() {
                         <div className="mx-auto max-w-2xl lg:max-w-5xl">
                             <header className="max-w-2xl">
                                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                                Writing on software projects, interesting technology, and music.</h1>
+                                    Writing on software projects, interesting technology, and music.</h1>
                                 <p className="leading-7 mt-6 text-base text-zinc-600 dark:text-zinc-400">All of my thoughts on
                                     programming, leadership, product design, and more.</p>
                             </header>
@@ -43,8 +46,8 @@ function Articles() {
                                                         <div
                                                             className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl">
                                                         </div><Link href={article.link}><span
-                                                                className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span
-                                                                    className="relative z-10">{article.title}</span></Link>
+                                                            className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span
+                                                                className="relative z-10">{article.title}</span></Link>
                                                     </h2><time
                                                         className="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
                                                     ><span
