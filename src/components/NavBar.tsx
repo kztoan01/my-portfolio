@@ -44,8 +44,8 @@ export default function NavBar() {
                                     <div className="flex flex-1">
                                         <div className="h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10">
                                             <Link href={'/'} aria-label="Home" className="pointer-events-auto">
-                                                <Image className="cursor-pointer rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-9 w-9"
-                                                    src={toan} alt=''
+                                                <img className="cursor-pointer rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-9 w-9"
+                                                    src={"https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg"} alt=''
                                                 />
                                             </Link>
                                         </div>
@@ -69,7 +69,7 @@ export default function NavBar() {
                                     <div className='flex justify-end md:flex-1'>
                                         <div className='pointer-events-auto'>
                                             <button type='button' className='group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20'>
-                                                <svg className='hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500'><path d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z" stroke-width="1.5" stroke-linecap="round" strokeWidth="round"></path></svg>
+                                                <svg className='hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500'><path d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z" strokeWidth="1.5" strokeLinecap="round" strokeWidth="round"></path></svg>
                                             </button>
                                         </div>
                                     </div>
