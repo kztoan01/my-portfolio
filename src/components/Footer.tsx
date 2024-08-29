@@ -15,7 +15,7 @@ export default function Footer() {
                                     {/* <Link href={'/speaking'} className="transition hover:text-teal-500 dark:hover:text-teal-400">Speaking</Link> */}
                                     <Link href={'/uses'} className="transition hover:text-teal-500 dark:hover:text-teal-400">Uses</Link>
                                     </div>
-                                    <p className="text-sm text-zinc-400 dark:text-zinc-500">© 2023 Tran Bao Toan. All rights reserved.</p>
+                                    <p className="text-sm text-zinc-400 dark:text-zinc-500">© 2024 Tran Bao Toan. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

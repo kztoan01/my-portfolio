@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ArrowSmDownIcon } from '@heroicons/react/solid';
 import Image from "next/image";
-import toan from  '../../public/assets/images/profile-pic.jpg'
+import toan from  '../../public/assets/images/pfp.jpg'
 const Card3D = () => {
   return (
     <div className=" px-4 py-12 text-slate-900">
@@ -67,9 +67,9 @@ const TiltCard = () => {
         transformStyle: "preserve-3d",
       }}
         className="shadow-lg w-48 px-2.5 lg:max-w-none ml-28 aspect-square rounded-2xl bg-gradient-to-br from-pink-900 to-purple-900">
-        <img alt=""
+        <Image alt=""
           className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 mx-auto text-4xl absolute inset-4 grid place-content-center shadow-lg"
-          src={"https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg"}
+          src={toan}
           style={{
             transform: "translateZ(75px)",
             transformStyle: "preserve-3d",

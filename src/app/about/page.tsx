@@ -1,5 +1,5 @@
 import Card3D from '@/components/Card3D'
-import toan1 from  '../../../public/assets/images/toan.jpg'
+import toan1 from  '../../../public/assets/images/pfp.jpg'
 import toan2 from  '../../../public/assets/images/profile-pic.jpg'
 import Image from 'next/image'
 export default function About() {
@@ -58,15 +58,15 @@ export default function About() {
                         <div className="mx-auto max-w-2xl lg:max-w-5xl">
                             <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                                 <div className="lg:pl-20">
-                                    <div className="max-w-xs px-2.5 lg:max-w-none"><img alt="" loading="lazy" width="800"
+                                    <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
                                         className="relative aspect-square rotate-6 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-                                        src={"https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg"}
+                                        src={toan1}
                                     /></div>
-                                    <div className="max-w-xs px-2.5 lg:max-w-none"><img alt="" loading="lazy" width="800"
+                                    <div className="max-w-xs px-2.5 lg:max-w-none"><Image alt="" loading="lazy" width="800"
                                         height="800" decoding="async" data-nimg="1"
                                         className="aspect-square -rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-                                        src={"https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg"}
+                                        src={toan2}
                                     /></div>
                                 </div>
                                 <div className="lg:order-first lg:row-span-2">
